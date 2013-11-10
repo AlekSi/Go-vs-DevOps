@@ -78,10 +78,10 @@ Go vs DevOps
 
 * Ну а для DevOps?
 
+- Docker
 - Packer
 - Serf
 - etcd
-- Docker
 - Juju
 - Heka (Mozilla!)
 
