@@ -1,0 +1,105 @@
+Go vs DevOps
+
+Алексей "AlekSi" Палажченко
+
+
+* Кто здесь?!
+
+- Qik > Skype > Microsoft
+- [[http://express42.com][Express 42]]
+- [[http://croice.com][Croice]]
+- [[http://github.com/AlekSi][github.com/AlekSi]]
+- [[http://meetup.com/Golang-Moscow][meetup.com/Golang-Moscow]]
+- группа [[https://groups.google.com/d/forum/golang-ru][golang-ru]]
+
+
+* Hello world!
+
+.play go-vs-devops/hello.go
+
+	go run hello.go
+
+.image go-vs-devops/frontpage.png
+
+
+* Hello HTTP/1.1!
+
+.play go-vs-devops/hello-server.go
+
+- keep alive
+- chunked encoding
+- streaming
+
+
+* Что это?
+
+- открытый проект
+- 2 компилятора (gc, gcc) + другие проекты
+- сверх-быстрая компиляция (весь std – 9 секунд)
+- объектно-ориентированный, но лёгкий
+- явное приведение типов (int, int32, int64 – разные типы)
+- сборщик мусора
+- горутины (лёгкие нити) и каналы
+- инструменты (race detector!)
+- … и ничего нового (с точки зрения науки)
+
+.image go-vs-devops/project.png
+
+
+* Кто все эти люди?
+
+.image go-vs-devops/team.png
+
+…, Роберт Гризмер, Роб Пайк, Кен Томпсон, Эндрю Герранд, Брэд Фицпатрик
+
+
+* Зачем?
+
+«Back around September 2007, I was doing some minor but central work on an enormous Google C++ program, one you've all interacted with, and my compilations were taking about 45 minutes on our huge distributed compile cluster», – Роб Пайк.
+
+- быстрее
+- проще
+- эффективнее
+- масштабируемее
+
+.image go-vs-devops/logo.png
+
+
+* Для кого?
+
+Роб Пайк:
+
+«Although we expected C++ programmers to see Go as an alternative, instead most Go programmers come from languages like Python and Ruby. Very few come from C++.»
+
+«Python and Ruby programmers come to Go because they don't have to surrender much expressiveness, but gain performance and get to play with concurrency.»
+
+.image go-vs-devops/talks.png
+
+
+* Ну а для DevOps?
+
+- Packer
+- Serf
+- Docker
+- Juju
+- Heka (Mozilla!)
+
+.image go-vs-devops/run.png
+
+
+* Go vs PPR
+
+- быстрее
+- статическая линковка, нет зависимостей
+- std третьего тысячелетия
+- конкурентность третьего тысячелетия
+
+.image go-vs-devops/pkg.png
+
+
+* Спасибо
+
+Алексей "AlekSi" Палажченко
+@paaleksey
+
+.image go-vs-devops/doc.png
