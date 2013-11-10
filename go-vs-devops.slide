@@ -80,6 +80,7 @@ Go vs DevOps
 
 - Packer
 - Serf
+- etcd
 - Docker
 - Juju
 - Heka (Mozilla!)
